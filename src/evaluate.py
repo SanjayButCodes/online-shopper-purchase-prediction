@@ -3,7 +3,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from sklearn.metrics import (accuracy_score, precision_score, recall_score,
-                             f1_score, roc_auc_score, confusion_matrix,
+                             f1_score, roc_auc_score,
                              ConfusionMatrixDisplay, RocCurveDisplay)
 from preprocess import OUT
 
@@ -19,8 +19,11 @@ def metrics_line(name, model, X, y):
 
 
 def evaluate(model, X_train, X_test, y_train, y_test):
-    lines = [metrics_line("Train", model, X_train, y_train),
-             metrics_line("Test", model, X_test, y_test)]
+    lines = [
+        metrics_line("Train", model, X_train, y_train),
+        metrics_line("Test", model, X_test, y_test),
+        f"Baseline (always predict no purchase): accuracy {1 - y_test.mean():.3f}",
+    ]
 
     print("\n=== Evaluation ===")
     print("\n".join(lines))

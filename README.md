@@ -129,7 +129,7 @@ Test: accuracy 0.869 | precision 0.556 | recall 0.814 | F1 0.661 | ROC-AUC 0.925
 Baseline (always predict no purchase): accuracy 0.844
 ```
 
-![Expected terminal output](outputs/Refined_model_outputs/terminal_output_screenshot.png)
+![Expected terminal output](outputs/Refind_model_outputs/terminal_output_screenshot.jpeg)
 
 Files created in `outputs/`: `correlation_heatmap.png`, `top_coefficients.png`, `learning_curve.png`, `confusion_matrix.png`, `roc_curve.png`, `odds_ratios.csv`, `results.txt`.
 

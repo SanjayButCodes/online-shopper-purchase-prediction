@@ -297,5 +297,5 @@ Note: the features were standardized, so each odds ratio is for a 1 standard dev
 
 ## AI-use disclosure
 
-- **Claude :**suggested the preprocessing changes, explained concepts, and helped format this README. We ran all the code ourselves, checked the outputs on our dataset, and every member can explain their part. The documentation lead reviewed the final README.
+- **Claude :** suggested the preprocessing changes, explained concepts, and helped format this README. We ran all the code ourselves, checked the outputs on our dataset, and every member can explain their part. The documentation lead reviewed the final README.
 - No AI was used to generate the dataset or the results.

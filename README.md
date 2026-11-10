@@ -90,7 +90,7 @@ On other distributions, install the same packages with your package manager (for
 
 To leave the virtual environment later, type `deactivate`.
 
-`requirements.txt`:
+[requirements.txt](reqirements.txt):
 
 ```
 matplotlib==3.11.2

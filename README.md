@@ -23,7 +23,7 @@ All four of us wrote code.
 
 ## Links
 
-- **Slides (5):** `docs/AI Mini-Project T-2.pdf`
+- **Slides (5):** `docs/AI_Mini_Project_Team2.pdf`
 - **Video (max 5 min):** [UNLISTED YOUTUBE OR DRIVE LINK]
 
 ---

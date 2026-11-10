@@ -2,9 +2,16 @@
 
 We predict whether a person visiting an online shop will buy something, using logistic regression (pandas, matplotlib, scikit-learn).
 
-`AI101 Mini-Project` · `Team 2` · `Python 3.14`
+`AI101 Mini-Project` · `Team 2` 
 
 AI101: Data Science and AI Essentials with Python, School of AI and Data Engineering, IIT Ropar
+
+---
+
+## Links
+
+- **Slides :** [AI_Mini_Project_Team2.pdf](docs/AI_Mini_Project_Team2.pdf)
+- **Video :** https://drive.google.com/file/d/1OqK5TaOutZsCsxMHz20h2TS7wczyWzbP/view?usp=sharing
 
 ---
 
@@ -18,13 +25,6 @@ AI101: Data Science and AI Essentials with Python, School of AI and Data Enginee
 | Rudra Baleshkumar Parde | 2026EEB1401 | @RUDRAPARDE | Execution lead |
 
 All four of us wrote code.
-
----
-
-## Links
-
-- **Slides :** [AI_Mini_Project_Team2.pdf](docs/AI_Mini_Project_Team2.pdf)
-- **Video :** https://drive.google.com/file/d/1OqK5TaOutZsCsxMHz20h2TS7wczyWzbP/view?usp=sharing
 
 ---
 

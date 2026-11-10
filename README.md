@@ -231,7 +231,7 @@ Based on what we found, we changed the preprocessing:
 
 After this we have 30 features.
 
-### Step 4: Training and evaluating ([train.py](src/train.py), [evaluate.py](src/evaluate.pyd)
+### Step 4: Training and evaluating ([train.py](src/train.py), [evaluate.py](src/evaluate.py))
 
 - Trained logistic regression again on the cleaned data, with `class_weight="balanced"` so mistakes on the rare "purchase" class count more.
 - Saved a coefficient chart, a learning curve and the odds ratios.

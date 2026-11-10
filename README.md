@@ -163,7 +163,7 @@ online-shopper-purchase-prediction/
 - **Size:** about 12,330 visits (one row = one visit), 17 feature columns and 1 target column (`Revenue`)
 - **Target:** `Revenue` is True if the visitor bought something, False if not
 - **Class balance:** only 15.5% of visits ended in a purchase, so the data is imbalanced
-- **File in this repo:** `data/online_shoppers_intention.csv`
+- **File in this repo:** [data/online_shoppers_intention.csv](data/online_shoppers_intention.csv)
 
 ### What the columns mean
 
@@ -202,7 +202,7 @@ First we built a basic model to see where we stand:
 
 This gave a test F1 of 0.619 and ROC-AUC of 0.908. Not bad, but we felt we were not using the data in the best way, so we looked at it properly.
 
-### Step 2: Understanding the data (`explore.py`)
+### Step 2: Understanding the data [explore.py](src/explore.py)
 
 We calculated mean, median, standard deviation, covariance and correlation, and made a heatmap. What we found:
 
@@ -213,7 +213,7 @@ We calculated mean, median, standard deviation, covariance and correlation, and 
 - Count and duration columns are very skewed (a few huge values, many small ones).
 - The anonymous code columns are only labels, so correlations with them mean little. We left them out of the correlation analysis.
 
-### Step 3: Breaking down the data in our own way (`preprocess.py`)
+### Step 3: Breaking down the data in our own way [preprocess.py](src/explore.py)
 
 Based on what we found, we changed the preprocessing:
 
@@ -231,7 +231,7 @@ Based on what we found, we changed the preprocessing:
 
 After this we have 30 features.
 
-### Step 4: Training and evaluating (`train.py`, `evaluate.py`)
+### Step 4: Training and evaluating ([train.py](src/train.py), [evaluate.py](src/evaluate.pyd)
 
 - Trained logistic regression again on the cleaned data, with `class_weight="balanced"` so mistakes on the rare "purchase" class count more.
 - Saved a coefficient chart, a learning curve and the odds ratios.
